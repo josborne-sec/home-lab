@@ -32,7 +32,7 @@ Every design decision here was made with a specific threat in mind:
 
 ## Architecture
 
-![Network Architecture](../network/diagrams/architecture.drawio.png)
+![Network Architecture](../../network/diagrams/architecture.png)
 
 ### NIC to Bridge Mapping
 
