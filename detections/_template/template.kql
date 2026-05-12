@@ -1,0 +1,11 @@
+// Detection Name: [Name]
+// Description: [One-sentence summary]
+// MITRE ATT&CK: [TXXXX - Technique Name]
+// Data Source: [Table name]
+// Author: Jacob Osborne
+// Last Updated: [YYYY-MM-DD]
+
+[TableName]
+| where TimeGenerated > ago(1h)
+// [Filter logic here]
+| project TimeGenerated, [relevant fields]
